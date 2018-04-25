@@ -2,48 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c155e44-c080-499d-9ff6-9ac1185e91be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/clients/Example1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/crawler/DBCrawler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/crawler/FileCrawler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Example1_RunScript.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Example2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/AddressDomain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/AddressIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/AddressRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/Bootloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/Outkept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/TemplateManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/crawler/Crawler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/crawler/CrawlerBot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/crawler/CrawlersDispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/feeds/Feed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/feeds/FeedLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/feeds/RSSFeed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/network/AddressDomain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/network/AddressIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/network/AddressRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/notifiers/Mail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/notifiers/MailDispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/notifiers/Notifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/notifiers/SMS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/notifiers/SMSDispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/notifiers/TwitterDispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/sensors/Ip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/sensors/LoadedSensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/sensors/Sensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/sensors/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/servers/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/servers/ServerLinux.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/servers/ServerMonitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/servers/threads/Gardener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/servers/threads/RAIDVerifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/servers/threads/Refresher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/servers/threads/Statistics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/utils/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/vendor/StatsdClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/citicbank/hz/zk/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/citicbank/hz/zk/ZkHttpServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/citicbank/hz/zk/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/citicbank/hz/zk/domain/PostContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/citicbank/hz/zk/domain/ZkNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/citicbank/hz/zk/util/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/citicbank/hz/zk/util/ZooKeeperUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/Bootloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/Outkept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/TemplateManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/crawler/Crawler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/crawler/CrawlerBot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/crawler/CrawlersDispatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/feeds/Feed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/feeds/FeedLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/feeds/RSSFeed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/network/AddressDomain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/network/AddressIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/network/AddressRange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/notifiers/Mail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/notifiers/MailDispatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/notifiers/Notifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/notifiers/SMS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/notifiers/SMSDispatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/notifiers/TwitterDispatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/sensors/Ip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/sensors/LoadedSensor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/sensors/Sensor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/sensors/Users.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/servers/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/servers/ServerLinux.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/servers/ServerMonitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/servers/threads/Gardener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/servers/threads/RAIDVerifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/servers/threads/Refresher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/servers/threads/Statistics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/utils/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/outkept/outkept/vendor/StatsdClient.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,30 +58,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="ZkHttpServerApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/citicbank/hz/zk/ZkHttpServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="43" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Example1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/clients/Example1.java">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/citicbank/hz/zk/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/App.java">
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/citicbank/hz/zk/controller/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="179">
+              <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="127" column="36" lean-forward="true" selection-start-line="127" selection-start-column="36" selection-end-line="127" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -87,9 +127,54 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/clients/Example1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/Outkept.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/crawler/CrawlersDispatcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/outkept/crawler/CrawlersDispatcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/network/AddressDomain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/crawler/Crawler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/crawler/CrawlerBot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/crawler/CrawlersDispatcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/feeds/Feed.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/feeds/RSSFeed.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/network/AddressIterator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/network/AddressRange.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/notifiers/Mail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/notifiers/MailDispatcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/notifiers/Notifier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/notifiers/SMS.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/notifiers/SMSDispatcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/notifiers/TwitterDispatcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/sensors/Ip.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/sensors/LoadedSensor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/sensors/Sensor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/sensors/Users.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/servers/threads/Gardener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/servers/threads/RAIDVerifier.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/servers/threads/Refresher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/servers/threads/Statistics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/servers/Server.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/servers/ServerLinux.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/servers/ServerMonitor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/vendor/StatsdClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/Outkept.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/Config.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/Bootloader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/feeds/FeedLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/outkept/TemplateManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/citicbank/hz/zk/util/ZooKeeperUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/citicbank/hz/zk/util/Logger.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/citicbank/hz/zk/Main.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -98,13 +183,98 @@
     <option name="height" value="709" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MapRDemoAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MapRDemoAutomation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MapRDemoAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MapRDemoAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MapRDemoAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.outkept" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ZkHttpServerApplication">
+    <configuration name="Example2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mapr.jatin.automation.jsch.Example2" />
+      <module name="MapRDemoAutomation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mapr.jatin.automation.jsch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.citicbank.hz.zk.Main" />
+      <module name="MapRDemoAutomation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.citicbank.hz.zk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ZkHttpServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.citicbank.hz.zk.ZkHttpServerApplication" />
+      <module name="MapRDemoAutomation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.citicbank.hz.zk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -146,6 +316,21 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.Example2" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ZkHttpServerApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ZkHttpServerApplication" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Example2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -155,6 +340,14 @@
       <option name="presentableId" value="Default" />
       <updated>1524657586693</updated>
     </task>
+    <task id="LOCAL-00001" summary="added initial code">
+      <created>1524657863194</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1524657863194</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -162,13 +355,13 @@
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32913387" />
+      <window_info anchor="bottom" id="Messages" weight="0.32913387" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32913387" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
@@ -191,14 +384,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added initial code" />
+    <option name="LAST_COMMIT_MESSAGE" value="added initial code" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="43" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/clients/Example1.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -209,9 +399,368 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/outkept/Outkept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/outkept/crawler/CrawlersDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/crawler/Crawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/crawler/CrawlerBot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/crawler/CrawlersDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/feeds/Feed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/feeds/RSSFeed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/network/AddressDomain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/network/AddressIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/network/AddressRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/notifiers/Mail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/notifiers/MailDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+          <folding>
+            <element signature="e#505#511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/notifiers/Notifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/notifiers/SMS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/notifiers/SMSDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/notifiers/TwitterDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/sensors/Ip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/sensors/LoadedSensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/sensors/Sensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/sensors/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/servers/threads/Gardener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/servers/threads/RAIDVerifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/servers/threads/Refresher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/Bootloader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/vendor/StatsdClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/servers/ServerMonitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/servers/ServerLinux.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/servers/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/servers/threads/Statistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/feeds/FeedLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/TemplateManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="34" column="84" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Example1_RunScript.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Example2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="17" selection-start-line="17" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/citicbank/hz/zk/util/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding>
+            <element signature="e#89#90#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/citicbank/hz/zk/util/ZooKeeperUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1089">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/Outkept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-318">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/citicbank/hz/zk/ZkHttpServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="127" column="36" lean-forward="true" selection-start-line="127" selection-start-column="36" selection-end-line="127" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/citicbank/hz/zk/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/citicbank/hz/zk/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <last-edited>scala-sdk-2.12.5</last-edited>
@@ -236,6 +785,18 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>MapRDemoAutomation</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -250,6 +811,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
