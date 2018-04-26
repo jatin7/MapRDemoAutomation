@@ -2,56 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c155e44-c080-499d-9ff6-9ac1185e91be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/LoginUsingPubKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Shell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/zk/servicediscoveryclient/CheckSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/zk/servicediscoveryclient/Labels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/zk/servicediscoveryclient/SpringPrometheusTargetGroupsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/zk/servicediscoveryclient/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/zk/servicediscoveryclient/TargetGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/zk/servicediscoveryclient/ZooKeeperUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/ChangePassphrase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/JumpHosts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/KeyGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/KnownHosts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/SftpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Subsystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Sudo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/X11Forwarding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/url.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/citicbank/hz/zk/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/zk/httpserver/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/citicbank/hz/zk/ZkHttpServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/zk/httpserver/ZkHttpServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/citicbank/hz/zk/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/zk/httpserver/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/citicbank/hz/zk/domain/PostContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/zk/httpserver/domain/PostContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/citicbank/hz/zk/domain/ZkNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/zk/httpserver/domain/ZkNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/citicbank/hz/zk/util/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/zk/httpserver/util/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/citicbank/hz/zk/util/ZooKeeperUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/zk/httpserver/util/ZooKeeperUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/Bootloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/Config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/Outkept.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/TemplateManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/crawler/Crawler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/crawler/CrawlerBot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/crawler/CrawlersDispatcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/feeds/Feed.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/feeds/FeedLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/feeds/RSSFeed.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/network/AddressDomain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/network/AddressIterator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/network/AddressRange.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/notifiers/Mail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/notifiers/MailDispatcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/notifiers/Notifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/notifiers/SMS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/notifiers/SMSDispatcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/notifiers/TwitterDispatcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/sensors/Ip.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/sensors/LoadedSensor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/sensors/Sensor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/sensors/Users.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/servers/Server.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/servers/ServerLinux.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/servers/ServerMonitor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/servers/threads/Gardener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/servers/threads/RAIDVerifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/servers/threads/Refresher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/servers/threads/Statistics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/utils/Utils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/vendor/StatsdClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,44 +27,136 @@
       <file leaf-file-name="SSHManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/ssh/SSHManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
+            <state relative-caret-position="1575">
               <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SSHFileList.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/ssh/SSHFileList.java">
+      <file leaf-file-name="url.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/url.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="16" column="38" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="38" />
+            <state relative-caret-position="15">
+              <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/utils/Utils.java">
+      <file leaf-file-name="KnownHosts.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/KnownHosts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#4376#4377#0" expanded="true" />
+                <element signature="e#4444#4445#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Outkept.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/Outkept.java">
+      <file leaf-file-name="KeyGen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/KeyGen.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="38" column="14" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="14" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/App.java">
+      <file leaf-file-name="ChangePassphrase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/ChangePassphrase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sudo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Sudo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4394#4395#0" expanded="true" />
+                <element signature="e#4462#4463#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Subsystem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Subsystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#3462#3463#0" expanded="true" />
+                <element signature="e#3530#3531#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JumpHosts.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/JumpHosts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2297#2573#0" expanded="true" />
+                <element signature="e#2572#2573#0" expanded="true" />
+                <element signature="e#4055#4056#0" expanded="true" />
+                <element signature="e#4123#4124#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="X11Forwarding.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/X11Forwarding.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3371#3372#0" expanded="true" />
+                <element signature="e#3439#3440#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SftpClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/SftpClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="140" column="32" lean-forward="true" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5015#5016#0" expanded="true" />
+                <element signature="e#5044#5045#0" expanded="true" />
+                <element signature="e#5088#5089#0" expanded="true" />
+                <element signature="e#5124#5125#0" expanded="true" />
+                <element signature="e#5152#5153#0" expanded="true" />
+                <element signature="e#5179#5180#0" expanded="true" />
+                <element signature="e#5216#5217#0" expanded="true" />
+                <element signature="e#5248#5249#0" expanded="true" />
+                <element signature="e#5280#5281#0" expanded="true" />
+                <element signature="e#5308#5309#0" expanded="true" />
+                <element signature="e#5350#5351#0" expanded="true" />
+                <element signature="e#5384#5385#0" expanded="true" />
+                <element signature="e#5419#5420#0" expanded="true" />
+                <element signature="e#5450#5451#0" expanded="true" />
+                <element signature="e#5498#5499#0" expanded="true" />
+                <element signature="e#5538#5539#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,21 +170,20 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>InfinItException</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Exception</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/clients/Example1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/Outkept.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/outkept/crawler/CrawlersDispatcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/outkept/outkept/crawler/CrawlersDispatcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/outkept/network/AddressDomain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/outkept/crawler/Crawler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/outkept/crawler/CrawlerBot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/outkept/crawler/CrawlersDispatcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/outkept/feeds/Feed.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/outkept/feeds/RSSFeed.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/outkept/network/AddressIterator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/outkept/network/AddressRange.java" />
@@ -175,6 +226,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/ssh/SSHManager.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/SftpClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/url.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/KnownHosts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/KeyGen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/ChangePassphrase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Sudo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Subsystem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/JumpHosts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/X11Forwarding.java" />
       </list>
     </option>
   </component>
@@ -196,6 +256,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,6 +304,16 @@
               <item name="MapRDemoAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="jsch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MapRDemoAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MapRDemoAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -254,7 +325,6 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -430,26 +500,34 @@
       <option name="project" value="LOCAL" />
       <updated>1524663220289</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding SSH Sample code">
+      <created>1524755214243</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1524755214243</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32913387" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32913387" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32913387" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32913387" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -461,7 +539,7 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32913387" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -470,65 +548,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added initial code" />
     <MESSAGE value="Adding Zookeeper" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Zookeeper" />
+    <MESSAGE value="Adding SSH Sample code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding SSH Sample code" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/crawler/Crawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/crawler/CrawlerBot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/crawler/CrawlersDispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/feeds/Feed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/feeds/RSSFeed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/network/AddressDomain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/network/AddressIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/network/AddressRange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/notifiers/Mail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -694,9 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -711,9 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="47" column="33" selection-start-line="47" selection-start-column="6" selection-end-line="47" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -724,26 +741,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/SSHUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/SSHUtil.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Example2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" selection-start-line="3" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -792,13 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/ssh/SSHManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -808,7 +803,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/Outkept.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="360">
           <caret line="38" column="14" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="14" />
         </state>
       </provider>
@@ -816,12 +811,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/utils/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/outkept/Config.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -839,8 +831,125 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/ssh/SSHFileList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="138">
           <caret line="16" column="38" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/ssh/SSHManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/SftpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="140" column="32" lean-forward="true" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5015#5016#0" expanded="true" />
+            <element signature="e#5044#5045#0" expanded="true" />
+            <element signature="e#5088#5089#0" expanded="true" />
+            <element signature="e#5124#5125#0" expanded="true" />
+            <element signature="e#5152#5153#0" expanded="true" />
+            <element signature="e#5179#5180#0" expanded="true" />
+            <element signature="e#5216#5217#0" expanded="true" />
+            <element signature="e#5248#5249#0" expanded="true" />
+            <element signature="e#5280#5281#0" expanded="true" />
+            <element signature="e#5308#5309#0" expanded="true" />
+            <element signature="e#5350#5351#0" expanded="true" />
+            <element signature="e#5384#5385#0" expanded="true" />
+            <element signature="e#5419#5420#0" expanded="true" />
+            <element signature="e#5450#5451#0" expanded="true" />
+            <element signature="e#5498#5499#0" expanded="true" />
+            <element signature="e#5538#5539#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/url.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/KnownHosts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#4376#4377#0" expanded="true" />
+            <element signature="e#4444#4445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/KeyGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/ChangePassphrase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Sudo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4394#4395#0" expanded="true" />
+            <element signature="e#4462#4463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Subsystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#3462#3463#0" expanded="true" />
+            <element signature="e#3530#3531#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/JumpHosts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2297#2573#0" expanded="true" />
+            <element signature="e#2572#2573#0" expanded="true" />
+            <element signature="e#4055#4056#0" expanded="true" />
+            <element signature="e#4123#4124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/X11Forwarding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3371#3372#0" expanded="true" />
+            <element signature="e#3439#3440#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
