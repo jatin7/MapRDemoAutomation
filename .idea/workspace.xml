@@ -2,11 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac50be2c-0c25-4e5e-aa70-22cdf5bac289" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/annotations/containers/cmd/LineContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/annotations/containers/restf/HeaderContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/annotations/request/cmd/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/annotations/request/restf/Auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/annotations/request/restf/Header.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/annotations/request/restf/URL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/api/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/api/CommandRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/api/DefaultCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/api/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/linux/LinuxQueryList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/linux/RealLinuxServerInfoBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/linux/RealServerInspector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/linux/SSHClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/clients/Example1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/Example1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/crawler/DBCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/crawler/DBCrawler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/crawler/FileCrawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/crawler/FileCrawler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/ChangePassphrase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/jsch/ChangePassphrase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Example1_RunScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/jsch/Example1_RunScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Example2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/jsch/Example2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/JumpHosts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/jsch/JumpHosts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/KeyGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/jsch/KeyGen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/KnownHosts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/jsch/KnownHosts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/LoginUsingPubKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/jsch/LoginUsingPubKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/SftpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/jsch/SftpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Shell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/jsch/Shell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Subsystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/jsch/Subsystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Sudo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/jsch/Sudo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/X11Forwarding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/jsch/X11Forwarding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/url.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/jsch/url.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/AddressDomain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/network/AddressDomain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/AddressIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/network/AddressIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/network/AddressRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/network/AddressRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/zk/httpserver/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/zk/httpserver/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/zk/httpserver/ZkHttpServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/zk/httpserver/ZkHttpServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/zk/httpserver/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/zk/httpserver/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/zk/httpserver/domain/PostContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/zk/httpserver/domain/PostContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/zk/httpserver/domain/ZkNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/zk/httpserver/domain/ZkNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/zk/httpserver/util/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/zk/httpserver/util/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/zk/httpserver/util/ZooKeeperUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/zk/httpserver/util/ZooKeeperUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/zk/servicediscoveryclient/CheckSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/zk/servicediscoveryclient/CheckSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/zk/servicediscoveryclient/Labels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/zk/servicediscoveryclient/Labels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/zk/servicediscoveryclient/SpringPrometheusTargetGroupsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/zk/servicediscoveryclient/SpringPrometheusTargetGroupsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/zk/servicediscoveryclient/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/zk/servicediscoveryclient/Target.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/zk/servicediscoveryclient/TargetGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/zk/servicediscoveryclient/TargetGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/zk/servicediscoveryclient/ZooKeeperUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/zk/servicediscoveryclient/ZooKeeperUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,70 +60,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Shell.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Shell.java">
+      <file leaf-file-name="RealLinuxServerInfoBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/linux/RealLinuxServerInfoBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="38" column="57" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="57" />
+            <state relative-caret-position="85">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginUsingPubKey.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/LoginUsingPubKey.java">
+      <file leaf-file-name="RealServerInspector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/linux/RealServerInspector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="36" selection-start-line="36" selection-end-line="39" selection-end-column="48" />
+            <state relative-caret-position="544">
+              <caret line="49" column="28" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Example2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Example2.java">
+      <file leaf-file-name="SSHClient.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/linux/SSHClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="33" column="56" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="56" />
+            <state relative-caret-position="521">
+              <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Example1_RunScript.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Example1_RunScript.java">
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/api/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state>
+              <caret column="37" selection-start-column="8" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChangePassphrase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/ChangePassphrase.java">
+      <file leaf-file-name="CommandRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/api/CommandRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Subsystem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Subsystem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sudo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Sudo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state>
+              <caret column="32" lean-forward="true" selection-start-column="7" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -97,14 +136,24 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Shell.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/jsch/Shell.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/api/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/api/DefaultCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/api/Factory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/api/CommandRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/annotations/request/cmd/Line.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/annotations/request/cmd/Line.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/linux/LinuxQueryList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/linux/RealLinuxServerInfoBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/linux/RealServerInspector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/linux/SSHClient.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
+    <option name="x" value="1925" />
     <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -144,6 +193,88 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jatin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.mapr.jatin.automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MapRDemoAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jatin" type="462c0819:PsiDirectoryNode" />
+              <item name="annotations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.mapr.jatin.automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MapRDemoAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jatin" type="462c0819:PsiDirectoryNode" />
+              <item name="annotations" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.mapr.jatin.automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MapRDemoAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jatin" type="462c0819:PsiDirectoryNode" />
+              <item name="annotations" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.mapr.jatin.automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MapRDemoAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jatin" type="462c0819:PsiDirectoryNode" />
+              <item name="annotations" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="restf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.mapr.jatin.automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MapRDemoAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jatin" type="462c0819:PsiDirectoryNode" />
+              <item name="annotations" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.mapr.jatin.automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MapRDemoAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jatin" type="462c0819:PsiDirectoryNode" />
+              <item name="annotations" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+              <item name="cmd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.mapr.jatin.automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MapRDemoAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jatin" type="462c0819:PsiDirectoryNode" />
+              <item name="annotations" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+              <item name="restf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.mapr.jatin.automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MapRDemoAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jatin" type="462c0819:PsiDirectoryNode" />
               <item name="automation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -152,8 +283,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jatin" type="462c0819:PsiDirectoryNode" />
               <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="jsch" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="com.mapr.jatin.automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MapRDemoAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jatin" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="linux" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -165,6 +307,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../workspace" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mapr.jatin.automation.linux" />
+      <recent name="annotations.request.cmd" />
+      <recent name="com.mapr.jatin.automation.api" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\apps\workspace_mapr\MapRDemoAutomation\src\main\java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -179,6 +331,17 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration name="Shell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mapr.jatin.automation.samples.clients.jsch.Shell" />
+      <module name="com.mapr.jatin.automation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mapr.jatin.automation.samples.clients.jsch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -220,6 +383,11 @@
       <properties />
       <listeners />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Shell" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -232,6 +400,14 @@
       <option name="presentableId" value="Default" />
       <updated>1524770268386</updated>
     </task>
+    <task id="LOCAL-00001" summary="Minor Updates">
+      <created>1524776829739</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1524776829739</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -240,12 +416,13 @@
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" weight="0.32978722" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31600407" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
@@ -268,6 +445,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Minor Updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor Updates" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -276,52 +457,147 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Example1_RunScript.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/jsch/Example1_RunScript.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/ChangePassphrase.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/jsch/ChangePassphrase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Sudo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/jsch/Sudo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Subsystem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/jsch/LoginUsingPubKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" selection-start-line="34" selection-end-line="37" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/jsch/KnownHosts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/jsch/KeyGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/jsch/Example2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="35" column="17" selection-start-line="35" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/jsch/Subsystem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/LoginUsingPubKey.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/jsch/JumpHosts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="36" selection-start-line="36" selection-end-line="39" selection-end-column="48" />
+        <state relative-caret-position="451">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Shell.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/samples/clients/jsch/Shell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="38" column="57" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="57" />
+        <state relative-caret-position="153">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/jsch/Example2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/api/DefaultCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="33" column="56" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="56" />
+        <state relative-caret-position="119">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/api/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/linux/LinuxQueryList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/annotations/request/cmd/Line.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="44" selection-start-column="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/linux/RealLinuxServerInfoBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/api/CommandRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" lean-forward="true" selection-start-column="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/linux/RealServerInspector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="49" column="28" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/api/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapr/jatin/automation/linux/SSHClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
