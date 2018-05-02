@@ -23,19 +23,47 @@
 
 
   <properties>
+
+    <!-- Build Systems -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+
+    <slf4j.version>1.7.12</slf4j.version>
+    <log4j.version>1.2.17</log4j.version>
 
     <!-- Spring Framework Versions -->
 
     <!-- Utils Libraries -->
-    <slf4j.version>1.7.12</slf4j.version>
-    <log4j.version>1.2.17</log4j.version>
-
-    <!-- Build Systems -->
     <jsch.version>0.1.54</jsch.version>
 
+   <!-- Databases -->
+    <h2.database>1.4.197</h2.database>
+    <jredis>2.9.0</jredis>
+
+    <!-- Commons Library -->
+    <apache.commons.io>2.4</apache.commons.io>
+    <apache.commons.pool>2.4.3</apache.commons.pool>
+    <apache.commons.email>1.3.1</apache.commons.email>
+    <apache.commons.exec>1.3</apache.commons.exec>
+    <apache.commons.logging>1.1.1</apache.commons.logging>
+    <apache.commons.lang>3.4</apache.commons.lang>
+    <apache.poi>3.17</apache.poi>
+    <apache.commons.lang>3.4</apache.commons.lang>
+
+    <google.client>1.23.0</google.client>
+    <google.sheets>v4-rev506-1.23.0</google.sheets>
+    <google.jetty>1.23.0</google.jetty>
+    <google.cloud>0.32.0-beta</google.cloud>
+    <google.guava>24.1-jre</google.guava>
+
+    <fasterxml>2.9.5</fasterxml>
+    <twitter4j>3.0.2</twitter4j>
+    <greenrobot.eventbus>3.1.1</greenrobot.eventbus>
+    <lambook>1.16.20</lambook>
+
+    <zookeeper.version>3.4.8</zookeeper.version>
+    <junit.version>4.12</junit.version>
   </properties>
 
   <dependencies>
@@ -43,59 +71,6 @@
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-config</artifactId>
-    </dependency>
-
-    <dependency>
-      <groupId>com.jcraft</groupId>
-      <artifactId>jsch</artifactId>
-      <version>${jsch.version}</version>
-    </dependency>
-
-    <!-- Used for JSON Library -->
-    <dependency>
-      <groupId>org.twitter4j</groupId>
-      <artifactId>twitter4j-core</artifactId>
-      <version>3.0.2</version>
-    </dependency>
-<!--
-    <dependency>
-      <groupId>org.twitter4j</groupId>
-      <artifactId>twitter4j-async</artifactId>
-      <version>4.0.6</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.twitter4j</groupId>
-      <artifactId>twitter4j-stream</artifactId>
-      <version>4.0.6</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.twitter4j</groupId>
-      <artifactId>twitter4j-media-support</artifactId>
-      <version>4.0.6</version>
-    </dependency>
--->
-    <dependency>
-      <groupId>redis.clients</groupId>
-      <artifactId>jedis</artifactId>
-      <version>2.9.0</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.apache.zookeeper</groupId>
-      <artifactId>zookeeper</artifactId>
-      <version>3.4.8</version>
-      <exclusions>
-        <exclusion>
-          <groupId>org.slf4j</groupId>
-          <artifactId>slf4j-api</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>org.slf4j</groupId>
-          <artifactId>slf4j-log4j12</artifactId>
-        </exclusion>
-      </exclusions>
     </dependency>
 
     <dependency>
@@ -110,9 +85,50 @@
     </dependency>
 
     <dependency>
+      <groupId>com.jcraft</groupId>
+      <artifactId>jsch</artifactId>
+      <version>${jsch.version}</version>
+    </dependency>
+
+    <!-- Used for JSON Library -->
+    <dependency>
+      <groupId>org.twitter4j</groupId>
+      <artifactId>twitter4j-core</artifactId>
+      <version>${twitter4j}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>redis.clients</groupId>
+      <artifactId>jedis</artifactId>
+      <version>${jedis.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.greenrobot</groupId>
+      <artifactId>eventbus</artifactId>
+      <version>${greenrobot.eventbus}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.zookeeper</groupId>
+      <artifactId>zookeeper</artifactId>
+      <version>${zookeeper.version}</version>
+      <exclusions>
+        <exclusion>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-api</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-log4j12</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+    <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-pool2</artifactId>
-      <version>2.4.3</version>
+      <version>${apache.commons.pool}</version>
       <type>jar</type>
       <scope>compile</scope>
     </dependency>
@@ -120,22 +136,43 @@
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-email</artifactId>
-      <version>1.3.1</version>
+      <version>${apache.commons.email}</version>
     </dependency>
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-exec</artifactId>
-      <version>1.3</version>
+      <version>${apache.commons.exec}</version>
     </dependency>
+
     <dependency>
       <groupId>commons-logging</groupId>
       <artifactId>commons-logging</artifactId>
-      <version>1.1.1</version>
+      <version>${apache.commons.logging}</version>
     </dependency>
+
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>${apache.commons.io}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>${apache.commons.lang}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>${lombook}</version>
+      <scope>provided</scope>
+    </dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.12</version>
+      <version>${junit.version}</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
